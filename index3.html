@@ -1,0 +1,32 @@
+<!doctype html>
+	
+<html>
+
+	<head>
+		<style type="text/css">
+			body {
+				margin: 0px;
+				padding: 0px;
+			}
+		</style>	
+		<script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js " > </script> 	
+	</head>
+
+	<body>
+		<div id="contenedorComando" style="text-align: center;margin-bottom: 10px;margin-top: 10px;">
+			<button id="activarCamara" style="text-align: center;padding: 10px; margin-right: 5px;">Activar C&aacutemara</button>
+			<button id="detenerCamara" style="text-align: center;padding: 10px; margin-left: 5px;">Detener C&aacutemara</button>
+		</div>
+		<div id="contenedorBoton" style="text-align: center;margin-bottom: 10px;margin-top: 10px;">
+			<button id="obtenerFoto" style="text-align: center;padding: 10px;">Obtener Foto</button>
+		</div>
+		<div id="contenedorVideo" style="text-align: center;">
+			<video id="inputVideo" muted width="300" height="225"></video>
+		</div>
+		<div id="contenedorCanvas" style="text-align: center;">
+			<canvas id="miCanvas" style="text-align: center;" width="300" height="225"></canvas>
+		</div>
+		<script src="./js/script3.js" type="module"></script>
+	</body>
+
+</html>

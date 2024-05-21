@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sistema de Facturacion e Inventario</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        #contendor {
+            margin: 0 auto; 
+            width: 260px;
+            text-align: center;
+            background: #CCE3FF;
+            border-radius: 5%;
+        }
+        #titulo {
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            color: white;
+            background: #5187C9;
+        }
+        #usuario {
+            text-align: center;
+            padding: 10px; 
+            margin-right: 5px;
+            height: 10px;
+            width: 100px;
+        }
+        #login {
+            text-align: center;
+            padding: 10px;
+            background: #5187C9;
+            border-radius: 10%;
+            color: white;           
+            border-color: darkgray;
+        }
+        #registro {
+            text-align: center;
+            padding: 10px; 
+            margin-bottom: 20px;
+            background: #5187C9;
+            border-radius: 10%;
+            color: white;
+            border-color: darkgray;
+        }
+    </style>    
+</head>
+<body>
+    <div id="contendor">
+        <div id="titulo">
+			<p style="padding: 10px;">FORMULARIO DE LOGIN</p>
+		</div>
+        <div id="centinela1" tabindex="1" onfocus="document.getElementById('registro').focus()"></div>
+        <div id="contenedorLogin" style="text-align: center;margin-bottom: 10px;margin-top: 10px;">
+			<p style="color:#5187C9;"><b>Usuario</b></p>
+            <p><input id="usuario" placeholder="Usuario" tabindex="2" autofocus></p>
+            <p style="color:#5187C9;"><b>Rostro</b></p>
+			<p><button id="login" tabindex="3">Login</button></p>
+            <p style="color:#5187C9;"><b>Realizar Registro</b></p>
+            <p><a href="registro.html"><button id="registro" tabindex="4">Registro</button></a></p>
+		</div>
+        <div id="centinela1" tabindex="5" onfocus="document.getElementById('usuario').focus()"></div>
+    </div>
+</body>
+</html>
